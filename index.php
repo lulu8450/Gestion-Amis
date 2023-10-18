@@ -2,7 +2,7 @@
 // Démarre la session PHP
 session_start();
 global $base_url;
-$base_url = "http://gestion-amis/";
+$base_url = "http://localhost:8080/";
 $GLOBALS['isConnected'] = $_SESSION && $_SESSION["user"];
 // Variable globale pour savoir si l'utilisateur est connecté
 require("models/db.php");
